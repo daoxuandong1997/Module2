@@ -17,8 +17,8 @@ public class Main {
         System.out.println("Số quyển sách Java:" +  countProgramingBookByLanguage(books));
     }
 
-    public static double sumOfPrice(Book[] books) {
-        double sum = 0;
+    public static int sumOfPrice(Book[] books) {
+        int sum = 0;
         for (Book book : books) {
             sum += book.getPrice();
         }

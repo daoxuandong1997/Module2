@@ -7,7 +7,7 @@ public class ProgrammingBook extends Book {
         this.framework = framework;
         this.language = language;
     }
-    public ProgrammingBook(String bookCode,String name, String author, double price,String language, String framework){
+    public ProgrammingBook(String bookCode,String name, String author, int price,String language, String framework){
         super(bookCode, name, author, price);
         this.framework = framework;
         this.language = language;
